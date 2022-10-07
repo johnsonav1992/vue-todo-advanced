@@ -51,21 +51,61 @@ export default {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: #2c3e50;
   margin-top: 60px;
+}
+
+body {
+  background-color: gray;
+}
+
+h1 {
+  color: #3eb27f;
+  font-weight: bold;
+  text-shadow: 1px 1px 5px rgb(31, 30, 30);
 }
 
 .section {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
+  width: 100vw;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+}
+
+input {
+  border-color: transparent;
+  border-radius: 1rem;
+  padding: .25rem;
+}
+
+input:focus {
+  outline-color:#3eb27f ;
+}
+
+button {
+  margin: 0;
+  border: none;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #3eb27f;
 }
 
 ul {
   list-style: none;
   display: flex;
-  justify-content: flex-start;
-  background-color: red;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
 }
 
 li {
